@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+/* Public */
+* {
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* header start */
+.header {
+    background-image: url(../photos/bakery.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: 0, 0;
+    overflow: hidden;
+}
+.overlay {
+    background-color:rgba(0, 0, 0,.4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 40px;
+}
+.navbar .logo{
+    float: left;
+    width: 60%;
+}
+.navbar .logo img{
+    width: 20%;
+    margin-left: 170px;
+}
+.navbar .nav{
+    float: left;
+    width: 40%;
+}
+.list-item {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 28px;
+}
+.header-content{
+    margin-top: 180px;
+    text-align: center;
+    color: white;
+}
+.header-text-up {
+    font-size: 22px;
+}
+.header-text-dn {
+    font-size: 24px;
+    line-height: 45px;
+}
+.header .header-content p {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.header .header-content h1 {
+    font-size: 76px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.header .header-content a{
+    text-decoration: none;
+    padding: 15px 28px;
+    font-size: 16px;
+    color: white;
+    border-radius: 4px;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+}
+.header .header-content .lrn-btn {
+    background-color: #8e7754;
+}
+.header .header-content .lrn-btn:hover{
+    background-color: white;
+    color: black ;
+}
+.header .header-content .ctc-btn{
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 13px 26px;
+}
+.header .header-content .ctc-btn:hover{
+    background-color: white;
+    color: black;
+}
+/* header end */
+/* about section start */
+.about-section{
+    margin-top: 100px;
+}
+.about-head{
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+.about-para{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-top: 50px;
+}
+.about-img{
+    float: left;
+    width: 60%;
+}
+.about-img img {
+    width: 80%;
+}
+.sbout-text{
+    float:left;
+    width: 40%;
+}
+.about-list {
+    margin-top: 30px;
+    line-height: 60px;
+}
+.about-items{
+    font-size: 17px;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+i {
+    color: rgb(142, 119, 84);
+    font-size: 30px;
+    border: 0.5px solid rgb(142, 119, 84);
+    border-radius: 50px;
+    padding:10px ;
+    margin-right: 10px;
+}
